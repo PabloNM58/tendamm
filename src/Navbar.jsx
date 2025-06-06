@@ -5,7 +5,7 @@ export default function Navbar() {
     <div style={styles.navbar}>
       {/* Icono de música a la izquierda */}
       <div style={styles.left}>
-        <FaMusic size={24} style={{ color: "black" }} />
+        <img style={{ width: "30px" }} src="./logo.png"></img>
       </div>
 
       {/* Textos en el centro-derecha */}
