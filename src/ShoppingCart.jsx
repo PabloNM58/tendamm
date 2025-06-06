@@ -136,9 +136,9 @@ export default function ShoppingCart() {
             para encargar o que necesite.
           </li>
           <li>
-            O número que indica a cantidade e que está entre os botóns - + solo
-            se poderá modificar cos botóns de - ou +, pero nunca modificandoo
-            directamente co teclado
+            O número que indica a cantidade, situado entre os botóns - e +, só
+            poderá modificarse mediante estes botóns. Non se poderá editar
+            directamente co teclado.
           </li>
         </ul>
       </Box>
