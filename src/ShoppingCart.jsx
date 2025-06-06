@@ -23,7 +23,10 @@ const style2 = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 500,
+  width: {
+    xs: "80vw", // para pantallas pequeñas
+    md: "40vw", // para pantallas medianas o grandes
+  },
   bgcolor: "#ddd",
   color: "#000",
   border: "1px solid #000",
