@@ -131,7 +131,8 @@ export default function ShoppingCart() {
           </li>
           <li>
             Actualización automática do carriño e do prezo total cando o usuario
-            modifica a cantidade de produtos
+            modifica a cantidade de produtos. Quitar o botón de "Actualizar
+            carriño"
           </li>
           <li>
             Cando se alcanza a cantidade máxima de produtos en stock, mostrar un
