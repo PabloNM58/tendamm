@@ -6,7 +6,7 @@ import { Grid } from "@mui/material";
 export default function Home() {
   const [showCart, setShowCart] = useState(0);
   return (
-    <Grid container>
+    <>
       <Navbar />
       {showCart === 0 ? (
         <img
@@ -25,6 +25,6 @@ export default function Home() {
       ) : (
         <ShoppingCart setShowCart={setShowCart} />
       )}
-    </Grid>
+    </>
   );
 }

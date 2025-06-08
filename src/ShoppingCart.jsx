@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { useState } from "react";
-import { Grid, Tooltip } from "@mui/material";
+import { Tooltip } from "@mui/material";
 const style = {
   position: "absolute",
   top: "50%",
@@ -94,60 +94,58 @@ export default function ShoppingCart() {
           </tbody>
         </table>
       </div>
-      <Grid>
-        <Typography sx={{ color: "#000", mt: 5, mb: 5 }}>
-          Propostas de cambio para o carriño:
-        </Typography>
-        <Box
-          sx={{
+      <Typography sx={{ color: "#000", mt: 5, mb: 5 }}>
+        Propostas de cambio para o carriño:
+      </Typography>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "flex-start",
+          justifyContent: "flex-start",
+          textAlign: "left",
+          width: "100%",
+        }}
+      >
+        <ul
+          style={{
+            color: "#000",
+            fontSize: "14px",
             display: "flex",
             flexDirection: "column",
             alignItems: "flex-start",
-            justifyContent: "flex-start",
-            textAlign: "left",
-            width: "100%",
+            gap: "5px",
+            paddingLeft: "20px",
+            margin: 0,
           }}
         >
-          <ul
-            style={{
-              color: "#000",
-              fontSize: "14px",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "5px",
-              paddingLeft: "20px",
-              margin: 0,
-            }}
-          >
-            <li>Sustituir o botón X da esquerda polo icono da papeleira</li>
-            <li>
-              Ó facer click no icono da papeleira, mostrar modal de aviso ANTES
-              de eliminar para pedir confirmación da acción ó usuario
-            </li>
-            <li>
-              Ocultar o botón de restar cantidade cando a cantidade está en 1,
-              para que só se poidan eliminar os produtos desde o icono da
-              papeleira
-            </li>
-            <li>
-              Actualización automática do carriño e do prezo total cando o
-              usuario modifica a cantidade de produtos. Quitar o botón de
-              "Actualizar carriño"
-            </li>
-            <li>
-              Cando se alcanza a cantidade máxima de produtos en stock, mostrar
-              un modal para ofrecerlle ó usuario a posibilidade de contactar ca
-              tenda para encargar o que necesite.
-            </li>
-            <li>
-              O número que indica a cantidade, situado entre os botóns - e +, só
-              poderá modificarse mediante estes botóns. Non se poderá editar
-              directamente co teclado.
-            </li>
-          </ul>
-        </Box>
-      </Grid>
+          <li>Sustituir o botón X da esquerda polo icono da papeleira</li>
+          <li>
+            Ó facer click no icono da papeleira, mostrar modal de aviso ANTES de
+            eliminar para pedir confirmación da acción ó usuario
+          </li>
+          <li>
+            Ocultar o botón de restar cantidade cando a cantidade está en 1,
+            para que só se poidan eliminar os produtos desde o icono da
+            papeleira
+          </li>
+          <li>
+            Actualización automática do carriño e do prezo total cando o usuario
+            modifica a cantidade de produtos. Quitar o botón de "Actualizar
+            carriño"
+          </li>
+          <li>
+            Cando se alcanza a cantidade máxima de produtos en stock, mostrar un
+            modal para ofrecerlle ó usuario a posibilidade de contactar ca tenda
+            para encargar o que necesite.
+          </li>
+          <li>
+            O número que indica a cantidade, situado entre os botóns - e +, só
+            poderá modificarse mediante estes botóns. Non se poderá editar
+            directamente co teclado.
+          </li>
+        </ul>
+      </Box>
       <Modal
         open={open}
         onClose={handleClose}
