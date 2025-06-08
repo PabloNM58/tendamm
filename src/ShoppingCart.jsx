@@ -155,7 +155,7 @@ export default function ShoppingCart() {
         <Box sx={style}>
           <Typography
             id="modal-modal-description"
-            sx={{ mt: 2, fontSize: "14px" }}
+            sx={{ mt: 2, fontSize: "16px" }}
           >
             Vas a eliminar ATRIL ORQUESTA da túa cesta de compra
           </Typography>
@@ -185,7 +185,7 @@ export default function ShoppingCart() {
           <Typography
             id="modal-title"
             variant="h6"
-            sx={{ mb: 2, fontSize: "13px" }}
+            sx={{ mb: 2, fontSize: "16px" }}
           >
             📦 Neste momento só temos <strong>4 atrís</strong> dispoñibles para
             entrega inmediata. Podes encargar as unidades que necesites chamando
