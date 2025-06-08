@@ -3,18 +3,15 @@ import { FaMusic, FaShoppingCart } from "react-icons/fa";
 export default function Navbar() {
   return (
     <div style={styles.navbar}>
-      {/* Icono de música a la izquierda */}
       <div style={styles.left}>
         <img style={{ width: "30px" }} src="./logo.png"></img>
       </div>
 
-      {/* Textos en el centro-derecha */}
       <div style={styles.right}>
         <span style={styles.link}>Inicio</span>
         <span style={styles.link}>Nós</span>
         <span style={styles.link}>Tenda</span>
         <span style={styles.link}>Contacto</span>
-        {/* Icono de carrito a la derecha de todo */}
         <FaShoppingCart size={22} style={styles.cart} />
       </div>
     </div>
