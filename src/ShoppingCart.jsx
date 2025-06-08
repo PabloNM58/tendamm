@@ -24,8 +24,8 @@ const style2 = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: {
-    xs: "80vw", // para pantallas pequeñas
-    md: "40vw", // para pantallas medianas o grandes
+    xs: "80vw",
+    md: "40vw",
   },
   bgcolor: "#ddd",
   color: "#000",
@@ -77,8 +77,8 @@ export default function ShoppingCart() {
                   onClick={() => setNum(num - 1)}
                   disabled={num === 1}
                   style={{
-                    color: num === 1 ? "#f2edea" : "#333",
-                    cursor: num !== 1 ? undefined : "pointer",
+                    color: "#333",
+                    cursor: num !== 1 ? "pointer" : "not-allowed",
                     border: "none",
                     padding: "6px 12px",
                     borderRadius: "4px",
@@ -125,8 +125,8 @@ export default function ShoppingCart() {
             eliminar para pedir confirmación da acción ó usuario
           </li>
           <li>
-            Ocultar o botón de restar cantidade cando a cantidade está en 1,
-            para que só se poidan eliminar os produtos desde o icono da
+            Deshabilitar o botón de restar cantidade cando a cantidade está en
+            1, para que só se poidan eliminar os produtos desde o icono da
             papeleira
           </li>
           <li>
