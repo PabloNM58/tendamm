@@ -64,7 +64,7 @@ td {
   background: #f2edea;
   color: #333;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 /* ========== RESPONSIVE ========== */
@@ -103,12 +103,12 @@ td {
     font-weight: bold;
     text-transform: uppercase;
     color: #333;
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   .remove {
     justify-content: flex-end;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .product-info {

@@ -110,7 +110,7 @@ export default function ShoppingCart() {
         <ul
           style={{
             color: "#000",
-            fontSize: "14px",
+            fontSize: "16px",
             display: "flex",
             flexDirection: "column",
             alignItems: "flex-start",
