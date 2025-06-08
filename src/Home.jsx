@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Navbar from "./Navbar";
 import ShoppingCart from "./ShoppingCart";
-import { Grid } from "@mui/material";
 
 export default function Home() {
   const [showCart, setShowCart] = useState(0);
