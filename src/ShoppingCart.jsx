@@ -192,18 +192,18 @@ export default function ShoppingCart() {
             ó noso teléfono
           </Typography>
           <Box>
-            <Typography sx={{ mt: 1, fontSize: "13px" }}>
+            <Typography sx={{ mt: 1, fontSize: "16px" }}>
               📞 <strong> 678 123 456</strong>
             </Typography>
 
-            <Typography sx={{ mt: 1, fontSize: "13px" }}>
+            <Typography sx={{ mt: 1, fontSize: "16px" }}>
               🕒 <strong>Horario de atención:</strong>
               <br />
               De 10:00 a 14:00 e de 16:00 a 20:00
             </Typography>
           </Box>
 
-          <Typography sx={{ mt: 1, fontSize: "13px" }}>
+          <Typography sx={{ mt: 1, fontSize: "16px" }}>
             Ou ben deixarnos unha mensaxe{" "}
             <Tooltip
               title="Esto será un enlace á sección Contacto da web"
@@ -219,7 +219,7 @@ export default function ShoppingCart() {
           <Typography
             sx={{
               mt: 2,
-              fontSize: "13px",
+              fontSize: "16px",
               borderTop: "1px solid #000",
               pt: 2,
               textAlign: "center",
